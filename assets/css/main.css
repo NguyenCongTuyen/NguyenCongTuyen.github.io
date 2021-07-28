@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+    font-family: 'Courier New', Courier, monospace; 
+}
+:root{
+}
+#main{
+    background-color: bisque;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+#main__heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    height: 46px;
+    border-radius: 10px;
+}
+/*---------Phần Logo----------*/
+#main__heading--logo{
+    margin-left: 16px;
+}
+/*---------Phần menu----------*/
+#main__heading--content ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+#main__heading--list li a{
+    color: black;
+    padding: 8px;
+    margin: 0 16px;
+    text-decoration: none;
+    transition: 0.2s;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+#main__heading--list li a:hover{
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+}
+/*---------Phần Content----------*/
+#main__middle{
+    display: flex;
+    justify-content: space-between;
+}
+#main__middle--icon{
+    display: flex;
+    align-items: flex-end;
+
+}
+#main__middle--icon li{
+    list-style-type: none;
+}
+#main__middle--icon i{
+    position: relative;
+    bottom: 70px;
+    margin-bottom: 16px;
+    font-size: 35px;
+    color: black;
+}
+
+#main__middle--img-left img{
+    max-width: 200px;
+    width: 400px;
+    margin-top: 130px;
+}
+#main__middle--content ul{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 200px;
+    position: relative;
+    
+}
+#main__middle--content li{
+    list-style-type: none;
+    margin: 10px;
+}
+#main__middle--content a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 5px;
+    transition: 0.3s;
+}
+#main__middle--content a:hover{
+    background-color:black;
+    color: white;
+    border-radius: 10px;
+}
+#main__middle--content h1{
+    text-transform: uppercase;
+    margin: auto;
+    width: 200px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.main__middle--button:hover{
+    background-color: white;
+    box-shadow: 5px;
+}
+.main__middle--text{
+   background-color: white;
+   border-radius: 10px;
+   padding: 5px;
+   border: 2px solid black;
+   
+}
+#main__middle--img-right img{
+    width: 400px;
+    margin-top: 400px;
+    margin-right: 30px;
+}
+
